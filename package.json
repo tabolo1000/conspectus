@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "deploy": "pnpm run build && gh-pages -d out"
+    "deploy": "pnpm run build && gh-pages -d out -r https://github.com/tabolo1000/conspectus.git"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",

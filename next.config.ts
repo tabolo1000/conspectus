@@ -3,8 +3,8 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: '/conspectus',      // имя репозитория
-    assetPrefix: '/conspectus/',
+    // basePath: '/conspectus',      // имя репозитория
+    // assetPrefix: '/conspectus',
 }
 
 module.exports = nextConfig
